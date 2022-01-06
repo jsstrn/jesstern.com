@@ -1,0 +1,69 @@
+title: Jesstern
+
+theme: PaperMod
+languageCode: en-us
+baseURL: "https://jesstern.com/"
+
+paginate: 10
+enableGitInfo: true
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - name: About
+      url: about/
+      weight: 1
+
+params:
+  author: "Jesstern Rays"
+  defaultTheme: auto
+
+  ShowToc: false
+  TocOpen: false
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+  profileMode:
+    enabled: true
+    title: "Jesstern Rays"
+    subtitle: ""
+    imageUrl: "https://avatars.githubusercontent.com/u/1199611?v=4"
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle: "Jesstern Rays"
+
+  homeInfoParams:
+    Title: "Hello, I'm Jesstern! 👋"
+    Content: "Welcome to my personal digital space."
+
+  socialIcons:
+    - name: "LinkedIn"
+      url: "https://linkedin.com/in/jesstern"
+    - name: "GitHub"
+      url: "https://github.com/jsstrn"
+    - name: "Email"
+      url: "mailto:hello@jsstrn.me"
+
+  assets:
+    favicon: "/favicon/favicon.ico"
+    favicon16x16: "/favicon/favicon-16x16.png"
+    favicon32x32: "/favicon/favicon-32x32.png"
+    apple_touch_icon: "/favicon/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon/safari-pinned-tab.svg"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
