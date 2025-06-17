@@ -1,8 +1,8 @@
 # Jesstern.com
 
-🕺 My personal home on the web
+🕺 The homepage of Jesstern Rays.
 
-## Getting started
+## Prerequisites
 
 Install Hugo
 
@@ -10,16 +10,29 @@ Install Hugo
 brew install hugo
 ```
 
-Clone this repository
+## Clone this repository
 
 ```sh
 git clone git@github.com:jsstrn/jesstern.com.git
 ```
 
-Create content
+## Update the current theme as a git submodule
 
 ```sh
-hugo new my-first-page.md
+git submodule update --remote --merge
+```
+
+## Clone a new theme as a git submodule
+
+```sh
+git submodule add --depth=1 <git-url> themes/<theme-name>
+git submodule update --init --recursive
+```
+
+## Create new content
+
+```sh
+hugo new content/some-page.md
 ```
 
 ## Theme
