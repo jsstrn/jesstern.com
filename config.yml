@@ -4,7 +4,8 @@ theme: PaperMod
 languageCode: en-us
 baseURL: "https://jesstern.com/"
 
-paginate: 10
+pagination:
+  pageSize: 10
 enableGitInfo: true
 
 taxonomies:
@@ -24,10 +25,10 @@ params:
   ShowToc: false
   TocOpen: false
 
-  ShowBreadCrumbs: true
-  ShowReadingTime: true
-  ShowPostNavLinks: true
-  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: false
+  ShowReadingTime: false
+  ShowPostNavLinks: false
+  ShowCodeCopyButtons: false
 
   profileMode:
     enabled: true
@@ -44,11 +45,11 @@ params:
 
   socialIcons:
     - name: "LinkedIn"
-      url: "https://linkedin.com/in/jesstern"
+      url: "http://jsrn.me/in"
     - name: "GitHub"
-      url: "https://github.com/jsstrn"
+      url: "http://jsrn.me/gh"
     - name: "Email"
-      url: "mailto:hello@jesstern.com"
+      url: "http://jsrn.me/hi"
 
   assets:
     favicon: "/favicon/favicon.ico"
