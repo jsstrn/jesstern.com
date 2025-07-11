@@ -6,6 +6,7 @@ baseURL: "https://jesstern.com/"
 
 pagination:
   pageSize: 10
+
 enableGitInfo: true
 
 taxonomies:
@@ -16,14 +17,18 @@ menu:
   main:
     - name: About
       url: about/
-      weight: 1
+      weight: 9
 
 params:
   author: "Jesstern Rays"
   defaultTheme: auto
+  disableThemeToggle: false
 
   ShowToc: false
   TocOpen: false
+
+  hideAuthor: true
+  hideFooter: true
 
   ShowBreadCrumbs: false
   ShowReadingTime: false
@@ -32,12 +37,12 @@ params:
 
   profileMode:
     enabled: true
-    title: "Jesstern Rays"
-    subtitle: ""
+    title: "Jesstern"
+    subtitle: "Welcome to the digital home of Jesstern Rays"
     imageUrl: "https://avatars.githubusercontent.com/u/1199611?v=4"
     imageWidth: 150
     imageHeight: 150
-    imageTitle: "Jesstern Rays"
+    imageTitle: "Jesstern"
 
   homeInfoParams:
     Title: "Hello, I'm Jesstern! 👋"
@@ -49,7 +54,7 @@ params:
     - name: "GitHub"
       url: "http://jsrn.me/gh"
     - name: "Email"
-      url: "http://jsrn.me/hi"
+      url: "/contact"
 
   assets:
     favicon: "/favicon/favicon.ico"
