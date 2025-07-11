@@ -1,2 +1,117 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Jesstern</title><link>https://jesstern.com/</link><description>Recent content on Jesstern</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Tue, 17 Jun 2025 18:40:06 +0800</lastBuildDate><atom:link href="https://jesstern.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://jesstern.com/about/</link><pubDate>Tue, 17 Jun 2025 15:56:42 +0800</pubDate><guid>https://jesstern.com/about/</guid><description>&lt;p>Hello there! 👋&lt;/p>
-&lt;p>My name is Jesstern. Welcome to my little corner of the internet.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Jesstern</title><link>https://jesstern.com/</link><description>Recent content on Jesstern</description><generator>Hugo -- 0.148.0</generator><language>en-us</language><lastBuildDate>Sat, 12 Jul 2025 00:53:55 +0800</lastBuildDate><atom:link href="https://jesstern.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://jesstern.com/about/</link><pubDate>Tue, 17 Jun 2025 15:56:42 +0800</pubDate><guid>https://jesstern.com/about/</guid><description>&lt;p>Hello there! 👋&lt;/p>
+&lt;p>My name is Jesstern. Welcome to my little corner of the internet.&lt;/p></description></item><item><title>Contact</title><link>https://jesstern.com/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jesstern.com/contact/</guid><description>&lt;p>Fill out the form below to get in touch with me. All fields are required.&lt;/p>
+&lt;style>
+.contact-section {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+.contact-intro > * + * {
+margin-top: 1rem;
+}
+.contact-title {
+font-size: 1.875rem;
+line-height: 2.25rem;
+font-weight: 700;
+}
+.contact-description {
+color: rgb(107 114 128);
+}
+.form-group-container {
+display: grid;
+gap: 1rem;
+margin-top: 2rem;
+}
+.form-group {
+display: flex;
+flex-direction: column;
+}
+.form-label {
+margin-bottom: 0.5rem;
+}
+.form-input,
+.form-textarea {
+padding: 0.5rem;
+border: 1px solid #e5e7eb;
+display: flex;
+height: 2.5rem;
+width: 100%;
+border-radius: 0.375rem;
+font-size: 0.875rem;
+line-height: 1.25rem;
+}
+.form-input::placeholder,
+.form-textarea:focus-visible {
+color: #6b7280;
+}
+.form-input:focus-visible,
+.form-textarea:focus-visible {
+outline: 2px solid #2563eb;
+outline-offset: 2px;
+}
+.form-textarea {
+min-height: 120px;
+}
+.form-submit {
+width: 100%;
+margin-top: 1.2rem;
+background-color: #1090c3;
+color: #fff;
+padding: 13px 5px;
+border-radius: 0.375rem;
+}
+&lt;/style>
+&lt;section class="contact-section">
+&lt;div class="contact-intro">
+&lt;/div>
+&lt;form
+id="contact-form"
+class="contact-form"
+action="https://api.web3forms.com/submit"
+method="POST"
+>
+&lt;input type="hidden" name="access_key" value="e93fcfe1-aee6-485f-9a34-052a1451e58e" />
+&lt;input
+type="hidden"
+name="subject"
+value="[Jesstern.com] Contact Form"
+/>
+&lt;input type="hidden" name="from_name" value="Jesstern.com" />
+&lt;input type="hidden" name="redirect" value="https://jesstern.com/thanks" />
+&lt;div class="form-group-container">
+&lt;div class="form-group">
+&lt;label for="name" class="form-label">Name&lt;/label>
+&lt;input
+id="name"
+name="name"
+class="form-input"
+placeholder="Your name"
+type="text"
+required
+/>
+&lt;/div>
+&lt;div class="form-group">
+&lt;label for="email" class="form-label">Email&lt;/label>
+&lt;input
+id="email"
+name="email"
+class="form-input"
+placeholder="Your email"
+type="email"
+required
+/>
+&lt;/div>
+&lt;div class="form-group">
+&lt;label for="message" class="form-label">Message&lt;/label>
+&lt;textarea
+class="form-textarea"
+id="message"
+name="message"
+placeholder="Your message"
+required
+>&lt;/textarea>
+&lt;/div>
+&lt;/div>
+&lt;button class="form-submit" type="submit">Send Message&lt;/button>
+&lt;/form>
+&lt;/section></description></item><item><title>Thanks</title><link>https://jesstern.com/thanks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jesstern.com/thanks/</guid><description>&lt;p>Thank you! Your message was sent successfully.&lt;/p></description></item></channel></rss>
